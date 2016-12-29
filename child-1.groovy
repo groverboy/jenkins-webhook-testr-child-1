@@ -1,5 +1,5 @@
 { ->
-  node('shared-agent-1') {
+  node {
     hello 'world (from child-1)'
   }
 }
